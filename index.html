@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Games Rebirth</title>
+  <meta name="description" content="Non-commercial fan remakes of old games from the 2000s, rebuilt for today's devices.">
+  <meta name="color-scheme" content="dark light">
+  <link rel="stylesheet" href="styles.css">
+  <script src="copyright-toast.js" defer></script>
+</head>
+<body>
+  <header class="hero">
+    <p class="eyebrow">Fan remakes &middot; Non-commercial</p>
+    <h1>Games Rebirth</h1>
+    <p class="lead">Old games from the 2000s, mostly mobile Java (J2ME) and PC
+      titles, rebuilt from scratch so they can be played on today's devices.</p>
+    <nav class="actions" aria-label="Main links">
+      <a class="button" href="https://github.com/gamesrebirth">Projects on GitHub</a>
+      <button class="button ghost" type="button" data-open-notice>Copyright notice</button>
+    </nav>
+  </header>
+
+  <main>
+    <section aria-labelledby="how-heading">
+      <h2 id="how-heading">How we remake games</h2>
+      <ul class="cards">
+        <li>
+          <h3>New code</h3>
+          <p>Every project is written from scratch. We do not copy or decompile
+            the original game's code.</p>
+        </li>
+        <li>
+          <h3>Own assets</h3>
+          <p>Art, sound and music are made by contributors or come under an
+            open license, with credit.</p>
+        </li>
+        <li>
+          <h3>Bring your own copy</h3>
+          <p>When a project needs the original data, players supply their own
+            legally obtained copy. We never host game files.</p>
+        </li>
+        <li>
+          <h3>Non-commercial</h3>
+          <p>No sales, no ads, and no donations tied to a remake.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="rights-heading">
+      <h2 id="rights-heading">Rights holders</h2>
+      <p>If you own a game we work on and want anything removed, open a
+        <a href="https://github.com/gamesrebirth/.github/issues/new?template=takedown-request.yml">takedown request</a>
+        and it will be removed promptly, without argument. Read the full
+        <a href="https://github.com/gamesrebirth/.github/blob/main/COPYRIGHT-NOTICE.md">copyright and trademark notice</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Games Rebirth is not affiliated with or endorsed by the original
+      developers, publishers or rights holders. All trademarks and copyrights
+      belong to their owners.</p>
+  </footer>
+
+  <aside class="toast" id="copyright-toast" role="dialog" aria-modal="false"
+         aria-labelledby="toast-title" aria-describedby="toast-body" hidden>
+    <div class="toast-head">
+      <h2 id="toast-title">Copyright and trademark notice</h2>
+      <button class="toast-close" type="button" data-close-notice aria-label="Close notice">&times;</button>
+    </div>
+    <div class="toast-body" id="toast-body" tabindex="0">
+      <p><strong>Games Rebirth is a non-commercial fan project.</strong> It is not
+        affiliated with, endorsed by, sponsored by or connected to any original
+        developer, publisher or rights holder of the games it remakes.</p>
+      <p><strong>Trademarks and copyrights.</strong> Game titles, character
+        names, logos and other trademarks belong to their respective owners.
+        They are named here only to identify the original work a project is
+        about. All rights to the original games remain with their owners.</p>
+      <p><strong>What we do not distribute.</strong> Our repositories aim not to
+        host or link to original game code, decompiled code, game files, ROMs,
+        JARs or ripped art, sound and music. Projects are written from scratch,
+        use assets made by contributors or under open licenses, and ask players
+        to supply their own legally obtained copy where the original data is
+        needed.</p>
+      <p><strong>No money involved.</strong> We do not sell remakes, show ads or
+        take donations tied to a remake.</p>
+      <p><strong>Removal on request.</strong> If you own the rights to a game, or
+        act for the owner, and want any content removed, we will remove it
+        promptly, without argument. Open a
+        <a href="https://github.com/gamesrebirth/.github/issues/new?template=takedown-request.yml">takedown request</a>
+        (public), or use GitHub's private
+        <a href="https://docs.github.com/en/site-policy/content-removal-policies/dmca-takedown-policy">DMCA process</a>.</p>
+      <p>These are our goals, not a guarantee that every file is free of
+        third-party material. If you find something that should not be here,
+        please tell us.</p>
+    </div>
+    <div class="toast-actions">
+      <a class="button ghost small" href="https://github.com/gamesrebirth/.github/blob/main/COPYRIGHT-NOTICE.md">Full notice</a>
+      <button class="button small" type="button" data-close-notice>I understand</button>
+    </div>
+  </aside>
+</body>
+</html>
